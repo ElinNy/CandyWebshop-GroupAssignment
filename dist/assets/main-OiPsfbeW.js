@@ -1,0 +1,1 @@
+import{g as n,a as s,r as i}from"./shoppingcart-tECp4d_l.js";function u(){let r=document.querySelectorAll(".add-to-cart"),e=async t=>{const o=t.target,a=parseInt(o.getAttribute("data-product-id"));let d=(await n()).find(c=>c.id===a);d?s(d):console.error("Product not found")};r.forEach(t=>{t.addEventListener("click",e)})}i();u();
